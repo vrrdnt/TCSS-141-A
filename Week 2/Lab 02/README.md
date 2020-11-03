@@ -1,5 +1,5 @@
 # a. 
-Using the provided link in the Lab 2 assignment page on Canvas, download the program called trickyText.py.  
+Using the provided link in the Lab 2 assignment page on Canvas, download the program called [trickyText.py](https://canvas.uw.edu/courses/1402936/assignments/5736219?module_item_id=11385190).  
 It contains several errors. Find and fix them. Once you fix one mistake, you will want to re-run the program before fixing another one.  
 You will want to run the program in IDLE and see what kinds of error messages  
 are shown for each kind of mistake – you will see such messages over and over again, so this is the good time to learn their meaning.  
@@ -13,7 +13,7 @@ The program should produce the following output:
 'Oh, you're sure to do that,' said the Cat, 'if you only walk long enough.'
 ```
 # b.  
-Using the provided link in the Lab 2 assignment page on Canvas, download the program called tricky2.py.  
+Using the provided link in the Lab 2 assignment page on Canvas, download the program called [tricky2.py](https://canvas.uw.edu/courses/1402936/assignments/5736219?module_item_id=11385190).  
 It contains several errors.  Find and fix them. The program should correctly use the flexibility of variables to produce the following output:  
 ```
 x is 6  
