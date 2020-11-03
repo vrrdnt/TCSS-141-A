@@ -22,6 +22,7 @@ character_pos = user_input.find(",")
 # In the line below, [character_pos] + 1 will equal 1, which is where our first comma is.
 # It'll then search rightwards from next to that comma to the next comma.
 position_pos = user_input.find(",", character_pos + 1)
+
 # The same thing is done here, just using the position of the second comma reported by the last find() call.
 # To clarify - to "call" is to execute a function, such as find().
 string_pos = user_input.find(",", position_pos + 1)
@@ -34,10 +35,12 @@ string_pos = user_input.find(",", position_pos + 1)
 # Remember - an "index" means an objects position in a list of objects.
 # For example, the position of the lowercase letter "L" in "bumblebee" has an index of 4.
 character = user_input[ : character_pos]
+
 # We want to convert [position] into a number using the int() function.
 # This is because, as seen above, the find and index operators require a number for any kind of
 # specific searching or slicing.
 position = int(user_input[character_pos + 1 : position_pos])
+
 # We don't specify an end point for the slice operation here - this is because [string] is the last thing our
 # user entered, and has a variable end point that depends on what the user enters.
 string = user_input[position_pos + 1 : ]
@@ -47,6 +50,7 @@ string = user_input[position_pos + 1 : ]
 # but [string] is only 9 characters long ("bumblebee"), the position is invalid.
 # In that event, the program just prints whatever the user entered for [string].
 if position <= len(string):
+    
     # Here we use a print() and format() statement. 
     # Where there are braces {} in the string, variables will replace them in order of appearance.
     # We only have one {} in the print() statement, so only one variable can be passed to it.
