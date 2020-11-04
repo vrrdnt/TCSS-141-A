@@ -42,7 +42,7 @@ while iteration in user_input:
 
     # [target] is also used here - this is to calculate the max number we're looking for.
     # First, we want to find out what year it'll be when the CPI has doubled.
-    # [target], on its first iteration, is equal to 2, because we defined [iteration] as 2, to start.
+    # [iteration], on its first iteration/run, is equal to 2, because we defined [iteration] as 2, to start.
     # [target] will then evaluate to 476.5.
     # Once the inner while loop has found the number of years it'll take to double the CPI (29),
     # the line at the bottom, iteration += 1 is saying [iteration] is equal to the value of iteration currently plus 1.
