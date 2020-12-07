@@ -2,7 +2,7 @@
 ## a. Lists I
 Download the file `lists1.py` that contains 4 list exercises. You are to follow/replace each comment in that file with the appropriate statement.
 ## b. Lists II
-Write a program called `lists2.py` that asks a user to enter numbers separated by commas, reads in these numbers, and puts them into a list. Then the program asks a user to enter a number to search for. Finally, the program displays how many times the entered number occurred in the list and the percentage of that value in a data set. You are NOT allowed to use a built-in function count –you need to count the number of values on your own. This is the sample run of the program:
+Write a program called `lists2.py` that asks a user to enter numbers separated by commas, reads in these numbers, and puts them into a list. Then the program asks a user to enter a number to search for. Finally, the program displays how many times the entered number occurred in the list and the percentage of that value in a data set. You are NOT allowed to use a built-in function count – you need to count the number of values on your own. This is the sample run of the program:
 ```
 Enter numbers separated by commas: 1,2,3,4,4,4,5,6,7,8,9,0
 Enter a number to look for: 4 
