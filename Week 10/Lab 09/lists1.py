@@ -1,3 +1,5 @@
+# This file is provided as-is in the lab.
+
 list1 = [4, 1, 2, 3, 4]
 list2 = [1, 3, 5, 7]
 
